@@ -12,6 +12,9 @@ static int sub(int a, int b)
 
 int main(int argc, char *argv[])
 {
+  int a;
   printf("Hello world!\n");
+  a = sub(5,2);
+  printf("a=%d\n", a);
   return 0;
 }
