@@ -10,6 +10,11 @@ static int sub(int a, int b)
   return (a-b);
 }
 
+static int cheng(int x, int y)
+{
+  return (x*y);
+}
+
 int main(int argc, char *argv[])
 {
   int sum, a;
